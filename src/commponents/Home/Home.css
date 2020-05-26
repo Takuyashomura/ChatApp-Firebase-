@@ -1,0 +1,53 @@
+.name_form{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 200px auto;
+}
+
+.main{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+}
+
+.button_container{
+    margin-top: 30px;
+}
+
+.comment_list{
+    margin-bottom: 150px;
+}
+
+.comment_container{
+    display: flex;
+}
+
+.comment_container > div{
+    margin-left: 20px;
+}
+
+.comment{
+    border: solid 1px;
+    border-radius: 5px;
+    width: 80%;
+}
+.list_style{
+    list-style: none;
+}
+
+.list_style > li{
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+.comment_form{
+    background:#a4e7f2 ;
+    padding-bottom: 20px;
+    border: solid 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
